@@ -43,6 +43,7 @@ body {
   background-repeat: no-repeat;
   border-radius: 10px;
   flex: 0.2;
+  overflow: hidden;
   margin: 0 0.4rem;
   transition: flex 0.7s ease-in;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
@@ -50,11 +51,12 @@ body {
 
   h3 {
     font-size: 2.4rem;
-    color: #48e248;
+    color: #ffbb01;
     position: absolute;
     top: 0.5rem;
-    left: 2rem;
+    left: 35rem;
     opacity: 0;
+    transition: opacity 0.5s ease-in 0.5s;
   }
 }
 
