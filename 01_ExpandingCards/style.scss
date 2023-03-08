@@ -45,13 +45,14 @@ body {
   flex: 0.2;
   margin: 0 0.4rem;
   transition: flex 0.7s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
 
   h3 {
     font-size: 2.4rem;
-    color: #333;
+    color: #48e248;
     position: absolute;
     top: 0.5rem;
-    left: 29rem;
+    left: 2rem;
     opacity: 0;
   }
 }
