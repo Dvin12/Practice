@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #ffefba, #ffffff);
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 3.8rem;
+}
