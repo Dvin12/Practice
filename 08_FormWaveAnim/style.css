@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #c06c84, #6c5b7b);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 6rem;
+  font-size: 4.2rem;
+  font-weight: bold;
+  color: #dee2e6;
+}
+
+.container {
+  background-color: rgba(250, 6, 26, 0.24);
+  color: #dee2e6;
+  padding: 6rem 4rem;
+  margin: 8rem;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 2.6rem;
+}
+.container .form-control {
+  position: relative;
+  width: 30rem;
+  margin: 2rem 0 4rem;
+}
+.container .form-control input {
+  display: block;
+  background-color: transparent;
+  color: #dee2e6;
+  border: 0;
+  border-bottom: 2px #dee2e6 solid;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-family: inherit;
+  font-size: 1.8rem;
+}
+.container .form-control input:focus {
+  outline: 0;
+}
+.container label {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.container button {
+  display: inline-block;
+  width: 100%;
+  padding: 1.4rem;
+  border: 0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 300;
+  transition: all 0.4s;
+}
+.container button:hover, .container button:active {
+  background-color: #e79416;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: scale(0.98);
+}
+.container p {
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.container a {
+  text-decoration: none;
+  color: #e79416;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
