@@ -56,6 +56,15 @@ h1 {
 .container .form-control input:focus {
   outline: 0;
 }
+.container .form-control input:focus + label span, .container .form-control input:valid + label span {
+  transform: translateY(-3rem);
+}
+.container .form-control span {
+  display: inline-block;
+  font-size: 1.8rem;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 .container label {
   position: absolute;
   top: 1.5rem;
