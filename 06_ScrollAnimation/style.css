@@ -11,12 +11,36 @@ html {
 
 body {
   background: linear-gradient(to right, #6c5b7b, #c06c84);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
   margin: 4rem;
   padding: 2rem;
   font-size: 3.8rem;
+}
+
+.box {
+  background-color: rgba(230, 168, 34, 0.5607843137);
+  color: #fff;
+  width: 60rem;
+  height: 20rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transform: translateX(400%);
+  transition: all 0.4s ease;
+}
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+.box.show {
+  transform: translateX(0);
 }/*# sourceMappingURL=style.css.map */
