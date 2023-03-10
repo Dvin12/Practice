@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 2.8rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: #fff;
+  border: #fff solid 2px;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  width: 15rem;
+  padding: 1.5rem;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #7549499f;
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+
+  &.left {
+    left: 0;
+    background: url(social_media_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(4, 54, 119, 0.63);
+    }
+  }
+
+  &.right {
+    right: 0;
+    background: url(nintendo-switch-oled.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(236, 17, 65, 0.63);
+    }
+  }
+}
+
+.hover-left .left {
+  width: 75%;
+}
+
+.hover-left .right {
+  width: 25%;
+}
+
+.hover-right .right {
+  width: 75%;
+}
+
+.hover-right .left {
+  width: 25%;
+}
