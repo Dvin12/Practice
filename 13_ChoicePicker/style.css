@@ -38,7 +38,7 @@ h1 {
   margin: 2rem;
 }
 .container #textarea {
-  color: #f8f9fa;
+  color: #515457;
   width: 50rem;
   height: 15rem;
   padding: 1rem;
@@ -56,7 +56,7 @@ h1 {
 }
 .container #tags .tag {
   display: inline-block;
-  margin: 0 2rem;
+  margin: 1rem 2rem;
   background-color: #ffd43b;
   padding: 1rem 3rem;
   font-size: 1.6rem;
