@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #06beb6, #48b1bf);
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+  font-size: 3.8rem;
+}/*# sourceMappingURL=style.css.map */
