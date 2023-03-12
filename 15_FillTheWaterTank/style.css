@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Golos Text", sans-serif;
+}
+
+body {
+  background: linear-gradient(to left, #74ebd5, #acb6e5);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  margin: 2rem;
+  font-size: 3.4rem;
+  color: #1c7ed6;
+}
+.container h3 {
+  font-size: 2.8rem;
+  color: #1c7ed6;
+}
+.container .tank {
+  margin: 4rem;
+  height: 40rem;
+  width: 20rem;
+  border: 3px solid #276092;
+  background-color: #dce2e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 2.2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  overflow: hidden;
+}
+.container .remained {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  transition: all 0.3s;
+}
+.container .remained span {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.container .remained small {
+  font-size: 1.4rem;
+}
+.container .precentage {
+  background-color: #1c7ed6;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  height: 0;
+  transition: all 0.3s;
+}
+.container .text {
+  color: #1c7ed6;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.container .bottles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 40rem;
+}
+.container .bottle-small {
+  height: 10rem;
+  width: 5rem;
+  margin: 2rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+.container .bottle-small.full {
+  background-color: #2991ec;
+}/*# sourceMappingURL=style.css.map */
