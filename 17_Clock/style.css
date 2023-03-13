@@ -7,15 +7,24 @@
 html {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
+  background-color: #cfdef3;
   transition: all 0.5s;
 }
 
-body {
-  background-color: #cfdef3;
-}
-body.dark {
+html.dark {
   background-color: #343a40;
   color: #fff;
+}
+html.dark .toggle {
+  background-color: #cfdef3;
+  color: #343a40;
+}
+html.dark .clock_container .needle {
+  background-color: #cfdef3;
+}
+html.dark .clock_container .circle {
+  background-color: #cfdef3;
+  color: #343a40;
 }
 
 h1 {
@@ -61,6 +70,7 @@ h1 {
   height: 6.5rem;
   width: 3px;
   transform-origin: bottom center;
+  transition: all 0.5s;
 }
 .clock_container .clock .needle.hour {
   transform: translate(-50%, -100%) rotate(0deg);
