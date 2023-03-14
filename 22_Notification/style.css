@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(to right, #403b4a, #e7e9bb);
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+  font-size: 3.4rem;
+  color: #f8f9fa;
+  letter-spacing: 1.2px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.btn {
+  background-color: #403b4a;
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  padding: 1.8rem 2rem;
+  color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.btn:hover, .btn:active {
+  transform: scale(0.95);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 5px;
+  background-color: #332f3b;
+}
+
+#toasts {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast {
+  background-color: rgba(248, 249, 250, 0.8431372549);
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 12px;
+}/*# sourceMappingURL=style.css.map */
