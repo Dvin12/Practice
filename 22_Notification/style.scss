@@ -50,7 +50,7 @@ h1 {
   }
 }
 
-#toasts {
+#notifications {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
@@ -59,7 +59,7 @@ h1 {
   align-items: flex-end;
 }
 
-.toast {
+.notification {
   background-color: #f8f9fad7;
   margin: 0.5rem;
   padding: 1rem 2rem;
