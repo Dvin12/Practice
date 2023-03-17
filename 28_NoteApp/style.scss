@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  font-size: 2.8rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.add {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  background-color: #849e91;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.4s;
+  &:hover,
+  &:active {
+    background-color: #ffa94d;
+  }
+}
+
+.note {
+  background-color: #ffa94d;
+  margin: 2rem 3rem;
+  width: 40rem;
+  height: 40rem;
+  box-shadow: rgba(31, 30, 30, 0.315) 0px 2px 8px 0px;
+
+  .tools {
+    background-color: #ff922b;
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+    padding: 1rem;
+
+    button {
+      background-color: transparent;
+      border: 0;
+      color: #fff;
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  }
+}
+
+textarea {
+  height: 36rem;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}

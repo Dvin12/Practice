@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Notes</title>
+  </head>
+  <body>
+    <h1>Notes</h1>
+
+    <button class="add" id="add">
+      <i class="fa-solid fa-plus"></i> Add a note
+    </button>
+    <div class="container">
+      <div class="note">
+        <div class="tools">
+          <button class="edit">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </button>
+          <button class="delete"><i class="fa-solid fa-trash"></i></button>
+        </div>
+
+        <div class="hidden"></div>
+        <textarea></textarea>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"
+      integrity="sha512-uwSxMaa/W7dmSIXEd07BMVymisMRRUS/Pr5a76AquekKKu9HWn4rBiCd+ZtwqnoijAJvttdrz8krzP26kZjg0Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1529534295.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
