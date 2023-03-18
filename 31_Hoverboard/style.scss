@@ -28,11 +28,17 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   max-width: 40rem;
+  transform: translateY(20%);
 
   .square {
     background-color: #1e2a36;
     width: 16px;
     height: 16px;
     margin: 2px;
+    transition: 2s ease;
+
+    &:hover {
+      transition-duration: 0s;
+    }
   }
 }
