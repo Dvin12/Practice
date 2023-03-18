@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #6b6b83, #3b8d99);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+  font-size: 3.2rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.pokemon {
+  background-color: #eee;
+  border-radius: 12px;
+  margin: 4rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.img__container {
+  background-color: rgba(107, 107, 131, 0.4431372549);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.img__container img {
+  max-width: 110%;
+}
+
+.info {
+  margin: 1rem;
+}
+.info .number {
+  font-size: 1.8rem;
+}
+.info .name {
+  font-size: 2.4rem;
+}
+.info .type {
+  font-size: 1.4rem;
+}/*# sourceMappingURL=style.css.map */
