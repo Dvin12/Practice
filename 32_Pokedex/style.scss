@@ -23,6 +23,7 @@ h1 {
   justify-content: center;
   margin: 4rem;
   font-size: 3.2rem;
+  letter-spacing: 1.4px;
 }
 
 .container {
@@ -35,41 +36,45 @@ h1 {
 }
 
 .pokemon {
-  background-color: #eee;
+  background-color: #96f2d7;
   border-radius: 12px;
-  margin: 4rem;
-  padding: 2rem;
-
+  margin: 2rem;
+  padding: 3rem;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .img__container {
   background-color: #6b6b8371;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 14rem;
+  height: 14rem;
   display: flex;
-  align-items: center;
   justify-content: center;
   text-align: center;
   overflow: hidden;
-
-  img {
-    max-width: 110%;
-  }
 }
 
 .info {
-  margin: 1rem;
+  margin: 2rem 0;
   .number {
+    background-color: #83d4bc;
+    padding: 0.2rem 0.4rem;
+    border-radius: 8px;
     font-size: 1.8rem;
   }
 
   .name {
-    font-size: 2.4rem;
+    margin-top: 0.5rem;
+    font-size: 2.6rem;
   }
 
   .type {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+
+    span {
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
   }
 }
