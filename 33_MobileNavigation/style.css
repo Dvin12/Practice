@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #0082c8, #86a8e7);
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+  font-size: 3.6rem;
+  color: #17191b;
+  letter-spacing: 1.4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+.mobile__container {
+  position: relative;
+  width: 34rem;
+  height: 58rem;
+  border: 3px solid #d1d6db;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.mobile__container .content {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  left: 0;
+  height: calc(100% - 6rem);
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.mobile__container .content.show {
+  opacity: 1;
+}
+.mobile__container nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mobile__container nav ul {
+  display: flex;
+  background-color: #d1d6db;
+  list-style-type: none;
+  height: 6rem;
+  font-size: 1.7rem;
+}
+.mobile__container nav ul li {
+  flex: 1;
+  padding: 1.5rem 0;
+  text-align: center;
+  color: #828586;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.mobile__container nav ul li p {
+  font-size: 1.4rem;
+  margin: 0.4rem;
+}
+.mobile__container nav ul li:hover, .mobile__container nav ul li.active {
+  color: #2a45df;
+}/*# sourceMappingURL=style.css.map */
