@@ -31,7 +31,7 @@ h1 {
     background-color: #f8f9fa;
     width: 60rem;
     text-align: center;
-    border: 3px solid #343a40;
+    border: 2px solid #343a40;
     border-radius: 8px;
     padding: 5rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -70,7 +70,10 @@ h1 {
         appearance: none;
         margin: 0;
       }
-
+      &:active,
+      &:focus {
+        outline: none;
+      }
       &:valid {
         border-color: #bac8ff;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
