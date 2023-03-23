@@ -54,11 +54,10 @@ h1 {
   top: 6.5rem;
 }
 .container__testimonial .fa-quote-left {
-  left: 4rem;
+  right: 4rem;
 }
 .container__testimonial .fa-quote-right {
-  right: 4rem;
-  top: 16rem;
+  left: 4rem;
 }
 .container__testimonial .testimonial {
   font-size: 1.4rem;
