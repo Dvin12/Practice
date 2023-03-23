@@ -56,11 +56,20 @@ body {
       width: 60%;
       max-width: 48rem;
       min-width: 32rem;
+      transition-delay: 0.4s;
+
+      &.visible {
+        transition-delay: 0s;
+      }
     }
 
     &__red {
       background-color: #c92a2a;
       width: 95%;
+      transition-delay: 0.2;
+      &.visible {
+        transition-delay: 0.2s;
+      }
     }
 
     &__white {
@@ -68,6 +77,11 @@ body {
       width: 95%;
       padding: 4rem;
       position: relative;
+      transition-delay: 0s;
+
+      &.visible {
+        transition-delay: 0.4s;
+      }
     }
 
     .list {
