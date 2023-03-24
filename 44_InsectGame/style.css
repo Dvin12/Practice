@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Press Start 2P";
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(to top, #5f2c82, #49a09d);
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.screen.up {
+  margin-top: -100vh;
+}
+.screen h1 {
+  text-align: center;
+  margin: 4rem;
+  font-size: 3.6rem;
+}
+.screen .btn {
+  background-color: #fff;
+  border: 0;
+  color: #3d1d52;
+  font-family: inherit;
+  padding: 2rem;
+  cursor: pointer;
+}
+.screen .btn:hover {
+  opacity: 0.8;
+}
+.screen .btn__insect {
+  padding: 2rem;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+}
+.screen .btn__insect:hover {
+  background-color: #fff;
+  color: #5f2c82;
+}
+.screen .btn__insect img {
+  width: 12rem;
+  height: 12rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.screen .insects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.screen .insects li {
+  margin: 1rem;
+}
+
+.game {
+  position: relative;
+}
+.game .time,
+.game .score {
+  position: absolute;
+  top: 4rem;
+}
+.game .time {
+  left: 2rem;
+}
+.game .score {
+  right: 2rem;
+}
+.game .message {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.9;
+  background-color: #5f2c82;
+  color: #fff;
+  padding: 2rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  z-index: 100;
+  opacity: 0;
+  transition: transform 0.4s ease-in;
+}
+.game .message.visible {
+  transform: translate(-50%, 400%);
+  opacity: 1;
+}
+.game .insect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.game .insect.caught {
+  transform: translate(-50%, -50%) scale(0);
+}
+.game .insect img {
+  width: 10rem;
+  height: 10rem;
+}/*# sourceMappingURL=style.css.map */
